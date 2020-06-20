@@ -10,7 +10,6 @@ public class ResultMsg<T> {
 
     private Integer code;
     private String message;
-    private String url;
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private T data;
 
